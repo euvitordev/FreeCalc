@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,3 +37,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # FreeCalc
 # FreeCalc
+=======
+# FreeCalc
+Desbloqueie o caminho para o sucesso financeiro com cálculos precisos e estratégicos!
+>>>>>>> 26f7099a06a0a0ce5fc952b484d32e560c9a3f9f
