@@ -64,15 +64,15 @@ export default function BadgeOptions() {
         <Tooltip>
           <TooltipTrigger>
             <div className="overflow-container mb-60 flex w-full items-center justify-between gap-4 overflow-x-auto p-4">
-              {temasFreeCalc.map((index) => (
+              {temasFreeCalc.map((item, index) => (
                 <Button
                   key={index}
                   className="flex cursor-not-allowed items-center gap-2 rounded-full bg-zinc-100/25 font-bold text-white hover:text-black"
                   variant={"secondary"}
                   size={"sm"}
                 >
-                  {index.icon}
-                  {index.name}
+                  {item.icon}
+                  {item.name}
                 </Button>
               ))}
             </div>

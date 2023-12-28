@@ -106,15 +106,15 @@ export default function CalculatorContainer() {
               </h1>
 
               <div className="overflow-container mb-60 flex w-full items-center justify-between gap-4 overflow-x-auto p-1">
-                {temasFreeCalc.map((index) => (
+                {temasFreeCalc.map((item, index) => (
                   <Button
                     key={index}
                     className="flex cursor-not-allowed items-center gap-2 rounded-full bg-zinc-100/25 p-6 font-bold text-white hover:text-black"
                     variant={"secondary"}
                     size={"sm"}
                   >
-                    {index.icon}
-                    {index.name}
+                    {item.icon}
+                    {item.name}
                   </Button>
                 ))}
               </div>
@@ -174,14 +174,14 @@ export default function CalculatorContainer() {
           </div>
 
           <div className="overflow-container mt-8 flex h-full w-full flex-col gap-4 overflow-auto">
-            {HistoryCalc.map((index) => (
+            {HistoryCalc.map((item, index) => (
               <div
                 key={index}
                 className=" flex w-full cursor-pointer gap-8 rounded-xl bg-white p-4 transition-all delay-150 duration-300 ease-in-out hover:bg-zinc-200"
               >
                 <div className="flex items-center">
                   <span className="hover: rounded-full bg-emerald-100 p-2 text-emerald-500">
-                    {index.icon}
+                    {item.icon}
                   </span>
                 </div>
                 <div className="flex items-center">
