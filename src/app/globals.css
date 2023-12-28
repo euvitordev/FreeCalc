@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00000030;
+  border-radius: 20px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #494a5490;
+}
+
+.overflow-container {
+  padding-right: 8px;
+  overflow: hidden;
+  transition: overflow 0.3s ease-in-out;
+}
+
+.overflow-container {
+  padding-bottom: 8px;
+  overflow: hidden;
+  transition: overflow 0.3s ease-in-out;
+}
+
+.overflow-container:hover {
+  overflow: auto;
+}
