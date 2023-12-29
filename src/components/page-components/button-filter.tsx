@@ -16,9 +16,9 @@ export default function ButtonFilter() {
             <Button
               variant={"secondary"}
               size={"icon"}
-              className="cursor-not-allowed"
+              className="cursor-not-allowed rounded-full bg-emerald-500/5"
             >
-              <Filter />
+              <Filter size={20} />
             </Button>
           </TooltipTrigger>
           <TooltipContent className="flex items-center gap-4 text-red-500">
